@@ -9,7 +9,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "TryToRij";
+$dbname = "trytorij";
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
