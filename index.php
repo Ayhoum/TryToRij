@@ -122,7 +122,9 @@
 </footer>
 
 </body>
+
 <?php
-echo " Fuck off ayham !!! "
+echo "Hi";
 ?>
+
 </html>
