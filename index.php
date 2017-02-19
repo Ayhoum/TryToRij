@@ -122,4 +122,9 @@
 </footer>
 
 </body>
+
+<?php
+echo "Hi";
+?>
+
 </html>
