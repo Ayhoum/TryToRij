@@ -73,7 +73,7 @@
                 </div>
                 <div class="panel-body">
                     <p>الامتحانات<strong> الأول والثاني </strong>مجاناً</p>
-                    <p>الامتحانات<strong> الثالث والرابع</strong></p>
+                    <p>الامتحانات <strong>الثالث والرابع</strong></p>
                     <p><strong>مدى الحياة</strong></p>
                 </div>
                 <div class="panel-footer">
@@ -91,7 +91,7 @@
                 </div>
                 <div class="panel-body">
                     <p>الامتحانات<strong> الأول والثاني </strong>مجاناً</p>
-                    <p>الامتحانات<strong>الثالث والرابع والخامس والسادس</strong></p>
+                    <p>الامتحانات<strong> الثالث والرابع والخامس والسادس</strong></p>
                     <p><strong>مدى الحياة</strong></p>
                 </div>
                 <div class="panel-footer">
@@ -109,7 +109,7 @@
                 </div>
                 <div class="panel-body">
                     <p>الامتحانات<strong> الأول والثاني </strong>مجاناً</p>
-                    <p>الامتحانات<strong>كاملة</strong></p>
+                    <p>الامتحانات<strong> كاملة</strong></p>
                     <p><strong>مدى الحياة</strong></p>
                 </div>
                 <div class="panel-footer">
