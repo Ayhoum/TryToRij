@@ -1,23 +1,17 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Alaa
- * Date: 19-2-2017
- * Time: 20:26
- * This page includes the connection code to the Database; you can add it to your page directly.
- */
-?>
-<?php
 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "trytorij";
+$db['db_host'] = "localhost";
+$db['db_user'] = "root";
+$db['db_pass'] = "";
+$db['db_name'] = "trytorij";
 
-$connection = mysqli_connect($dbhost,$dbuser,$dbpass, $dbname);
-
-if (mysqli_connect_error())
-{
-    die ("connection to database failed: " . mysqli_connect_errno());
+foreach($db as $key => $value){
+    define(strtoupper($key), $value);
 }
+
+$connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+//if($connection){
+//echo "We are connected";
+//}
+
 ?>
