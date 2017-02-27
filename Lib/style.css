@@ -36,7 +36,7 @@ p, a, h1, h2, h3, h4, h5{
 .panel-footer .btn:hover {
     border: 1px solid #7A5454;
     background-color: #fff !important;
-    color: #f4511e;
+    color: #49274A;
 }
 
 .panel-heading {
@@ -109,6 +109,14 @@ p, a, h1, h2, h3, h4, h5{
     color: #9adfdb;
     font-family: 'Arsenal', sans-serif;
     font-size: 25px;
+}
+
+.navbar-inverse .navbar-toggle{
+    border-color: #E3F8FF;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #94618E;
 }
 
 .navbar-collapse {
