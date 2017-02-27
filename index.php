@@ -322,7 +322,7 @@
     <a href="#TheBody" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
-    <p style="direction: rtl">تم تطوير الموقع من قبل: <a href="#">SAA</a>.جميع الحقوق محفوظة لشركة SAA</p><br/><p style="direction: rtl">&copy;2017</p>
+    <p style="direction: rtl">تم تطوير الموقع من قبل: <a href="#">SAA</a> .جميع الحقوق محفوظة لشركة SAA</p><br/><p style="direction: rtl">&copy;2017</p>
 </footer>
 
 </body>
