@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 19, 2017 at 10:45 PM
+-- Generation Time: Feb 27, 2017 at 07:36 PM
 -- Server version: 10.1.19-MariaDB
--- PHP Version: 7.0.13
+-- PHP Version: 5.6.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -40,12 +40,21 @@ CREATE TABLE `admin` (
 --
 
 CREATE TABLE `customer` (
-  `ID` int(9) NOT NULL,
-  `First_anme` varchar(30) COLLATE utf8_bin NOT NULL,
-  `Last_Name` varchar(30) COLLATE utf8_bin NOT NULL,
-  `Email` varchar(50) COLLATE utf8_bin NOT NULL,
-  `Phone_Number` int(20) NOT NULL
+  `user_id` int(9) NOT NULL,
+  `user_firstname` varchar(255) COLLATE utf8_bin NOT NULL,
+  `user_lastname` varchar(255) COLLATE utf8_bin NOT NULL,
+  `user_email` text COLLATE utf8_bin NOT NULL,
+  `user_password` varchar(255) COLLATE utf8_bin NOT NULL,
+  `user_phone` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+--
+-- Dumping data for table `customer`
+--
+
+INSERT INTO `customer` (`user_id`, `user_firstname`, `user_lastname`, `user_email`, `user_password`, `user_phone`) VALUES
+(1, 'Ayham', 'Najem', 'aylosa@outlook.com', 'Ayhoum!2', 648632561),
+(2, 'Alaa', 'Semsmea', 'asd@asd.nl', 'Alaa!2', 646464646);
 
 -- --------------------------------------------------------
 
@@ -98,7 +107,7 @@ ALTER TABLE `admin`
 -- Indexes for table `customer`
 --
 ALTER TABLE `customer`
-  ADD PRIMARY KEY (`ID`);
+  ADD PRIMARY KEY (`user_id`);
 
 --
 -- Indexes for table `exam`
@@ -134,7 +143,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT;
+  MODIFY `user_id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `exam`
 --
@@ -158,13 +167,13 @@ ALTER TABLE `sub_lesson`
 -- Constraints for table `exam`
 --
 ALTER TABLE `exam`
-  ADD CONSTRAINT `exam_ibfk_1` FOREIGN KEY (`ID`) REFERENCES `customer` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE;
+  ADD CONSTRAINT `exam_ibfk_1` FOREIGN KEY (`ID`) REFERENCES `customer` (`user_id`) ON DELETE NO ACTION ON UPDATE CASCADE;
 
 --
 -- Constraints for table `lesson`
 --
 ALTER TABLE `lesson`
-  ADD CONSTRAINT `lesson_ibfk_1` FOREIGN KEY (`Number`) REFERENCES `customer` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE;
+  ADD CONSTRAINT `lesson_ibfk_1` FOREIGN KEY (`Number`) REFERENCES `customer` (`user_id`) ON DELETE NO ACTION ON UPDATE CASCADE;
 
 --
 -- Constraints for table `sub_lesson`

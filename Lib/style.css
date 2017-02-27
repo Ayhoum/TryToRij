@@ -43,3 +43,8 @@
     background-color: #7A5454;
     color: #fff;
 }
+
+.navbar-inverse {
+    background-color: #49274A;
+    border-color: #94618E;
+}
