@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="Lib/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+    <link rel="stylesheet" href="./Lib/css/font-awesome.min.css">
 
     <!-- STYLE -->
     <style>
@@ -168,41 +168,47 @@
 
 <body id="TheBody">
 
-<div class="container" style="width: 100%;">
+<div class="container" id="back-con">
 
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="container-fluid ">
-            <div class="navbar-header pull-right ">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar "></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-home"></span></a>
-            </div>
-            <div class="collapse navbar-collapse " id="myNavbar">
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="#">الدروس</a></li>
-                    <li><a href="#">الامتحانات </a></li>
-                    <li><a href="#">تواصل معنا</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> الحساب الشخصي</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> سله الشراء</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./"><img src="img/logo250borwhite.png"/>Try To Rij</a>
         </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> سلة المشتريات</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span> حسابي</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> حساب جديد</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> تسجيل الدخول</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#contact"><span class="glyphicon glyphicon-question-sign"></span> سؤال وجواب</a></li>
+                <li><a href="#contact"><span class="glyphicon glyphicon-ok"></span> الإمتحانات</a></li>
+                <li><a href="#about"><span class="glyphicon glyphicon-book"></span> الدروس</a></li>
+            </ul>
+        </div>
+    </nav>
 </div>
-<div class="container">
+<div class="container" id="back-con">
     <div class="container text-center">
-        <img class=".img-responsive" src="img/logo250.png">
+
+
+        HI
 
 
         <div class="container">
             <div class="row row-centered">
                 <div class="col-md-12 col-centered">
 
-                    <h1>Try To Rij</h1>
                 </div>
 
 
