@@ -11,24 +11,11 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
     <link rel="stylesheet" href="./Lib/css/font-awesome.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- STYLE -->
     <style>
 
-        /* Remove the jumbotron's default bottom margin */
-        .jumbotron {
-            margin-top: -3%;
-            height: 10%;
-            margin-bottom: -3%;
-            font: 25px 0 bold;
-
-
-        }
-        .jumbotron #img-logo{
-            margin-left:-3%;
-            width: 100px;
-            height: 100px;
-        }
 
 
         @keyframes move {
@@ -49,10 +36,6 @@
             /*border-radius: 30px;*/
         /*}*/
 
-        .container{
-   padding: 0px;
-
-        }
 
 
 
@@ -135,12 +118,6 @@
             clear:both;
         }
 
-        .progress{
-            width: 35%;
-            margin-left:45%;
-            margin-top: -10%;
-
-        }
 
 
         .user-home-photo{
@@ -198,11 +175,46 @@
         </div>
     </nav>
 </div>
+
 <div class="container" id="back-con">
     <div class="container text-center">
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/keVZSqxrLIE?rel=0" frameborder="0" allowfullscreen></iframe>
 
-        HI
+    </div>
+</div>
+
+<hr id="line-div"/>
+
+
+<div class="container" id="back-con">
+    <div class="container text-center">
+        <div class="container-fluid text-center">
+            <h2>الخدمات</h2>
+            <h4>ماذا نقدم؟</h4>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-earphone logo-small"></span>
+                    <h4>دعم كامل</h4>
+                    <p>يمكنكم طرح الأسئلة للإجابة عليها</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-file logo-small"></span>
+                    <h4>إمتحانات كاملة</h4>
+                    <p>مطابقة للمواصفات المتعارف عليها</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-road logo-small"></span>
+                    <h4>دروس نظرية مجانية</h4>
+                    <p>مدعمة بالصور والفيديوهات</p>
+                </div>
+            </div>
+            <br>
+
+            <a href="#"><button class="btn btn-primary btn-lg">قم بالتسجيل!</button></a>
+
+        </div>
 
 
         <div class="container">
@@ -218,149 +230,116 @@
         </div>
 
 
-</div><!-- jumbotron -->
+</div>
 
+<hr id="line-div"/>
 
 <!-- BOX 1 CONTAINER (THE ROW AND TABEL)-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-4">
-            <div class="panel panel-warning">
-                <div class="panel-heading ">Lessen</div>
-                <div class="panel-body"><img src="img/road-signs.png" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="caption">
-                    <h3> Thorie</h3>
-                    <p>Driving is one of the most useful skills in the world. But before you begin to drive, remember that driving is a privilege, not a right,
-                        and that you should learn how to be a responsible driver before you put your keys in the ignitio</p>
+        <div class="col-md-6">
+<center>
+    <h3><span class="count">1000</span></h3><br/>
+    <h3><span class="count">200</span></h3><br/>
+</center>
 
-                    <p><a href="#" class="btn btn-warning " role="button">GO</a> </p>
-                </div>
-            </div>
         </div>
-        <div class="col-sm-4">
-            <div class="panel panel-danger">
-                <div class="panel-heading">Toetsen</div>
-                <div class="panel-body"><img src="img/Best-Keyboard-for-Fast-Typing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="caption">
-                    <h3>Toetsen</h3>
-                    <p>re of the rules of driving and the basic safety precautions you should take as a responsible driver. It's much more advisable to learn the
-                        rules before you get behind the wheel so you don't wing it and make mistakes as...  </p>
-
-                    <p><a href="#" class="btn btn-danger " role="button">Test</a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="panel panel-success">
-                <div class="panel-heading">Upgrade</div>
-                <div class="panel-body"><img src="img/time-to-upgrade.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="caption">
-                    <h3>Upgrade  </h3>
-                    <p> ages of 14 and 18) and what you need to do to get it. [1] Here are some general guidelines:
-                        If you're a minor, you'll need the signature of your parent or guardian.You'll have to pass a written test about driving rules.
-                    </p>
-                    <p><a href="#" class="btn btn-success" role="button">up</a></p>
-                </div>
-
-            </div>
-        </div>
+        <div class="col-md-6">
+            <center>
+                <h3>عدد الطلاب في الموقع</h3><br/>
+                <h3>عدد الطلاب الناجحين</h3><br/>
+        </center>
     </div>
-</div><br>
-
-
-
-<!-- BOX2 THE BLOG CONTAINER -->
-
-
-<div class="box2-blog">
-
-    <div class="col-md-9 blogShort">
-        <h1>Meeste Gestelde Varagen</h1>
-        <img src="#" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
-
-        <em>This was relevent to <a href="#" target="_blank">'here should be a link'</a></em>
-        <article><p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-                of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-            </p>
-            <p></p>
-        </article>
-        <a class="btn btn-blog pull-right marginBottom10" href="#">More Information</a>
-    </div>
-    <div class="col-md-9 blogShort">
-        <h1>Title 2</h1>
-        <img src="#" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
-        <article><p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-                of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-            </p></article>
-        <a class="btn btn-blog pull-right marginBottom10" href="#">READ MORE</a>
-    </div>
-
-    <div class="col-md-9 blogShort">
-        <h1>Title 3</h1>
-        <img src="#" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
-        <article><p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-                of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-            </p></article>
-        <a class="btn btn-blog pull-right marginBottom10" href="#">READ MORE</a>
-    </div>
-
-    <div class="col-md-12 gap10"></div>
+</div>
 </div>
 
+<hr id="line-div"/>
 
 
+<div class="container-fluid bg-grey">
+    <h2 class="text-center">تواصل معنا</h2>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="row">
 
+            <center>
+            <h4 style="direction: rtl">نسعى لتقبل جميع المشاركات منكم وسنقوم بالرد عليكم خلال 24 ساعة</h4>
+            <h4>Groningen, The Nerherlands <span class="glyphicon glyphicon-map-marker"></span></h4>
+            <h4>+31 6 80000000 <span class="glyphicon glyphicon-phone"></span></h4>
+            <h4>info@trytorij.nl <span class="glyphicon glyphicon-envelope"></span></h4>
 
-<!-- Box 3   progress and the userphoto-->
+                <a href="#"><button class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-envelope"></span> تواصل معنا</button></a>
 
-<div class="box3-parent">
-    <div class="box3-child1">
-        <button type="button"   href="SignIn.html" class="btn btn-warning" >LOGIN</button>
-        <button type="button" class="btn btn-success">GaDoor</button>
+            </center>
+        </div>
     </div>
-
-    <div class="box3-child2">
-        <div class="user-home-photo">
-            <img src="img/user-male-shape-in-a-circle--ios-7-interface-symbol_318-35357.png" class="img-circle" alt="Cinque Terre" width="104" height="96">
-        </div>
-
-        <div class="progress">
-            <div class="progress-bar progress-bar-danger" style="width: 35%">
-                <span class="sr-only">35% Complete (danger)</span>
-            </div>
-            <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
-                <span class="sr-only">20% Complete (warning)</span>
-            </div>
-            <div class="progress-bar progress-bar-success" style="width: 10%">
-                <span class="sr-only">10% Complete (success)</span>
-            </div>
-        </div>
-
-    </div><!-- child -->
-    <div id="clear"></div> <!-- clear -->
-</div><br><!-- parent -->
-
 </div>
+</div>
+<hr id="line-div"/>
+
+
+<div class="container" id="back-con">
+    <div class="container text-center">
+
+        <h2>من نحن؟</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" style="direction: rtl;">
+                    <h4>مجموعة من الشباب تعمل على تأمين الخدمات المختلفة</h4>
+                </div>
+                <div class="item" style="direction: rtl;">
+                    <h4>كل ما نسعى لتقديمه هو المعرفة</h4>
+                </div>
+                <div class="item" style="direction: rtl;">
+                    <h4>تعلم .. تدرب .. اختبر نفسك .. وستنجح!</h4>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
 <!--            FOOTER            -->
 
-<footer class="container-fluid text-center">
+<footer id="footer1" class="container-fluid text-center">
     <a href="#TheBody" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
-    <p> &copy; SAA <a href="https://www.w3schools.com" title="link to somthing"> ---- </a></p>
+    <p style="direction: rtl">تم تطوير الموقع من قبل: <a href="#">SAA</a>.جميع الحقوق محفوظة لشركة SAA</p><br/><p style="direction: rtl">&copy;2017</p>
 </footer>
 
 </body>
 </html>
+
+<script>
+
+    $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 4000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+
+</script>

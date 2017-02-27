@@ -1,7 +1,26 @@
-p, a{
+p, a, h1, h2, h3, h4, h5{
     font-family: 'DroidArabicKufiRegular';
     font-weight: normal;
     font-style: normal;
+}
+
+.container{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#footer1 {
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+#line-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 60%;
 }
 
 .panel {
@@ -116,4 +135,71 @@ p, a{
 
 #back-con{
     width: 100%;
+}
+
+.logo-small {
+    color: #94618E;
+    font-size: 80px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #49274A;
+    border-color: #94618E;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #49274A;
+}
+
+
+
+#shiva
+{
+    width: 100%;
+    height: 100px;
+    color: #49274A;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin:5px;
+}
+.count
+{
+    color:#49274A;
+
+}
+#talkbubble {
+    width: 120px;
+    height: 80px;
+    background: red;
+    position: relative;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+    float:left;
+    margin:20px;
+}
+#talkbubble:before {
+    content:"";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+    font-size : 20px;
+    font-color: black;
 }
