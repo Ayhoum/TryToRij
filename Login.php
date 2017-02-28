@@ -27,7 +27,7 @@ if(isset($_POST['login'])){
 <html>
 <body>
 <div class="container-fluid">
-    <form action="./includes/login.php" method="post">
+    <form action="Login.php" method="post">
         <h2>Please Login </h2>
         <hr class="colorgraph">
         <div class="form-group">

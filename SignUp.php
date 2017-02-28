@@ -35,7 +35,7 @@ if(isset($_POST['signup']))
         <input name='email1' placeholder='E-Mail Address Conformation' type='text'></br>
         <input name='password' placeholder='Password' type='password'></br>
         <input name='password1' placeholder='Password Conformation ' type='password'></br>
-        <input name='phone_number' placeholder='Phone Number ' type="number"></br>
+        <input name='phone_number' placeholder='Phone Number ' type="text"></br>
         <input type='submit' name="signup" value='Register'>
     </form>
     <a class='forgot' href='#'>Already have an account?</a>
