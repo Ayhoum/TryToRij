@@ -190,7 +190,7 @@
 <div class="container" id="back-con">
     <div class="container text-center">
         <div class="container-fluid text-center">
-            <h2>الخدمات</h2>
+            <h2>خدماتنا</h2>
             <h4>ماذا نقدم؟</h4>
             <br>
             <div class="row">
