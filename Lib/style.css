@@ -1,7 +1,25 @@
-p, a, h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5{
     font-family: 'DroidArabicKufiRegular';
     font-weight: normal;
     font-style: normal;
+}
+
+p, a{
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: normal;
+    font-style: normal;
+    color:#C99193;
+}
+
+h2{
+    color:#A4443F;
+}
+
+h3{
+    color:#1F1641;
+}
+h4{
+    color:#2A3556;
 }
 
 .container{
@@ -21,6 +39,16 @@ p, a, h1, h2, h3, h4, h5{
     border: 0;
     border-top: 1px solid #eee;
     width: 60%;
+}
+
+
+#num{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact-txt{
+    color: #2A3556;
+    font-size: 16px;
 }
 
 .panel {
@@ -70,8 +98,12 @@ p, a, h1, h2, h3, h4, h5{
 }
 
 .navbar-inverse {
-    background-color: #49274A;
-    border-color: #94618E;
+    background-color: #1C1026;
+    border-color: #1C1026;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #1C1026;
 }
 
 .nav>li {
@@ -102,11 +134,11 @@ p, a, h1, h2, h3, h4, h5{
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #9adfdb;
+    color: #AAE6F3;
 }
 
 .navbar-inverse .navbar-brand {
-    color: #9adfdb;
+    color: #AAE6F3;
     font-family: 'Arsenal', sans-serif;
     font-size: 25px;
 }
@@ -146,14 +178,25 @@ p, a, h1, h2, h3, h4, h5{
 }
 
 .logo-small {
-    color: #94618E;
+    color: #84667E;
     font-size: 80px;
 }
 
+.logo-small1 {
+    color: #84667E;
+    font-size: 40px;
+}
+
 .btn-primary {
-    color: #fff;
-    background-color: #49274A;
-    border-color: #94618E;
+    color: #AAE6F3;
+    background-color: #1C1026;
+    border-color: #1C1026;
+}
+
+.btn-primary:hover {
+    color: #AAE6F3;
+    background-color: #C99193;
+    border-color: #C99193;
 }
 
 .btn-block {
@@ -209,5 +252,11 @@ p, a, h1, h2, h3, h4, h5{
 .linker
 {
     font-size : 20px;
-    font-color: black;
+    color: black;
 }
+
+
+.first-box{padding:10px;background:#CDCDCD;}
+.second-box{padding:10px; background:#CDCDCD;}
+.third-box{padding:10px;background:#CDCDCD;}
+.fourth-box{padding:10px;background:#CDCDCD;}
