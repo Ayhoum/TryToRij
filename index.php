@@ -53,60 +53,44 @@
     </nav>
 </div>
 
-<div class="container" style="width:80%;">
+<div class="container text-center" style="width:80%;">
 
 
-    <div class="container" id="back-con">
-        <div class="container text-center">
+    <div class="container text-center" id="back-con">
 
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/keVZSqxrLIE?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/keVZSqxrLIE?rel=0" frameborder="0" allowfullscreen></iframe>
 
-        </div>
     </div>
 
     <hr id="line-div"/>
 
 
     <div class="container" id="back-con">
-        <div class="container text-center">
-            <div class="container-fluid text-center">
-                <h2>خدماتنا</h2>
-                <h4>ماذا نقدم؟</h4>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <span class="glyphicon glyphicon-bullhorn logo-small"></span>
-                        <h4>دعم كامل</h4>
-                        <p>يمكنكم طرح الأسئلة للإجابة عليها</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <span class="glyphicon glyphicon-file logo-small"></span>
-                        <h4>إمتحانات كاملة</h4>
-                        <p>مطابقة للمواصفات المتعارف عليها</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <span class="glyphicon glyphicon-road logo-small"></span>
-                        <h4>دروس نظرية مجانية</h4>
-                        <p>مدعمة بالصور والفيديوهات</p>
-                    </div>
+
+        <h2 class="text-center">خدماتنا</h2>
+        <h4 class="text-center">ماذا نقدم؟</h4>
+        <br>
+        <div class="col-md-12 text-center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-bullhorn logo-small"></span>
+                    <h4>دعم كامل</h4>
+                    <p>يمكنكم طرح الأسئلة للإجابة عليها</p>
                 </div>
-                <br>
-
-                <a href="#"><button style="direction:rtl;" class="btn btn-primary btn-lg">قم بالتسجيل!</button></a>
-
-            </div>
-
-
-            <div class="container">
-                <div class="row row-centered">
-                    <div class="col-md-12 col-centered">
-
-                    </div>
-
-
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-file logo-small"></span>
+                    <h4>إمتحانات كاملة</h4>
+                    <p>مطابقة للمواصفات المتعارف عليها</p>
                 </div>
-
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-road logo-small"></span>
+                    <h4>دروس نظرية مجانية</h4>
+                    <p>مدعمة بالصور والفيديوهات</p>
+                </div>
             </div>
+            <br>
+
+            <a href="#"><button style="direction:rtl;" class="btn btn-primary btn-lg">قم بالتسجيل!</button></a>
         </div>
 
 
@@ -115,32 +99,33 @@
     <hr id="line-div"/>
 
     <!-- BOX 1 CONTAINER (THE ROW AND TABEL)-->
-    <div class="container text-center">
-        <h2>إحصائيات الموقع</h2>
-        <div class="row">
-            <div class="col-md-6">
+    <div class="container" id="back-con">
+        <h2 class="text-center">إحصائيات الموقع</h2>
+        <div class="col-md-12 text-center">
+            <div class="row">
+                <div class="col-md-6">
 
 
 
-                <center>
-                    <h3>عدد الطلاب الناجحين</h3><br/>
+                    <center>
+                        <h3>عدد الطلاب الناجحين</h3><br/>
 
 
-                    <h3><span class="count" id="num">200</span></h3><br/>
+                        <h3><span class="count" id="num">200</span></h3><br/>
 
-                </center>
-            </div>
+                    </center>
+                </div>
 
-            <div class="col-md-6">
-                <center>
-                    <h3>عدد الطلاب في الموقع</h3><br/>
+                <div class="col-md-6">
+                    <center>
+                        <h3>عدد الطلاب في الموقع</h3><br/>
 
-                    <h3><span class="count" id="num">1000</span></h3><br/>
+                        <h3><span class="count" id="num">1000</span></h3><br/>
 
-                </center>
+                    </center>
+                </div>
             </div>
         </div>
-
     </div>
 
     <hr id="line-div"/>
@@ -152,29 +137,28 @@
             <div class="col-sm-12">
                 <div class="row">
 
-                    <center>
-                        <h4 style="direction: rtl">يسعى فريق العمل لتقبل جميع المشاركات والتعليقات بهدف تحسين الخدمات والجودة</h4>
+                    <h4 class="text-center" style="direction: rtl">يسعى فريق العمل لتقبل جميع المشاركات والتعليقات بهدف تحسين الخدمات والجودة</h4>
 
-                        <div class="container">
-                            <div class="row text-center">
-                                <div class="col-sm-4 col-xs-6 first-box">
-                                    <h1><span class="glyphicon glyphicon-earphone logo-small1"></span></h1>
-                                    <h3>الهاتف</h3>
-                                    <p id="contact-txt">0680000000</p><br>
-                                </div>
-                                <div class="col-sm-4 col-xs-6 second-box">
-                                    <h1><span class="glyphicon glyphicon-home logo-small1"></span></h1>
-                                    <h3>العنوان</h3>
-                                    <p id="contact-txt">Groningen, The Netherlands</p><br>
-                                </div>
-                                <div class="col-sm-4 col-xs-6 third-box">
-                                    <h1><span class="glyphicon glyphicon-send logo-small1"></span></h1>
-                                    <h3>البريد الإلكتروني</h3>
-                                    <p id="contact-txt">info@trytorij.nl</p><br>
-                                </div>
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+
+                            <div class="col-sm-4 col-xs-6 first-box">
+                                <h1><span class="glyphicon glyphicon-earphone logo-small1"></span></h1>
+                                <h3>الهاتف</h3>
+                                <p id="contact-txt">0680000000</p><br>
+                            </div>
+                            <div class="col-sm-4 col-xs-6 second-box">
+                                <h1><span class="glyphicon glyphicon-home logo-small1"></span></h1>
+                                <h3>العنوان</h3>
+                                <p id="contact-txt">Groningen, The Netherlands</p><br>
+                            </div>
+                            <div class="col-sm-4 col-xs-6 third-box">
+                                <h1><span class="glyphicon glyphicon-send logo-small1"></span></h1>
+                                <h3>البريد الإلكتروني</h3>
+                                <p id="contact-txt">info@trytorij.nl</p><br>
                             </div>
                         </div>
-                    </center>
+                    </div>
                 </div>
             </div>
         </div>
@@ -183,133 +167,127 @@
 
 
     <div class="container" id="back-con">
-        <div class="container text-center">
 
-            <h2>من نحن؟</h2>
-            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators" style="display:none;">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
+        <h2 class="text-center">من نحن؟</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators" style="display:none;">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active" style="direction: rtl;">
-                        <h4>شركة ناشئة تعمل على توفير الخدمات المختلفة</h4>
-                    </div>
-                    <div class="item" style="direction: rtl;">
-                        <h4>كل ما تسعى إليه شركتنا هو تقديم المعرفة</h4>
-                    </div>
-                    <div class="item" style="direction: rtl;">
-                        <h4>تعلم .. تدرب .. اختبر نفسك .. وستنجح!</h4>
-                    </div>
-                    <div class="item" style="direction: rtl;">
-                        <h4>ترغب بالإنضمام إلينا؟</h4>
-                    </div>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" style="direction: rtl;">
+                    <h4>شركة ناشئة تعمل على توفير الخدمات المختلفة</h4>
                 </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <br/>
-            <br/>
-            <br/>
-            <div class="col-md-12">
-
-                <div class="col-md-4">
-                    <h4>Dev 1</h4>
-                    <img src="./img/1.png">
+                <div class="item" style="direction: rtl;">
+                    <h4>كل ما تسعى إليه شركتنا هو تقديم المعرفة</h4>
                 </div>
-
-                <div class="col-md-4">
-                    <h4>Dev 2</h4>
-                    <img src="./img/1.png">
+                <div class="item" style="direction: rtl;">
+                    <h4>تعلم .. تدرب .. اختبر نفسك .. وستنجح!</h4>
                 </div>
-
-                <div class="col-md-4">
-                    <h4>Dev 3</h4>
-                    <img src="./img/1.png">
+                <div class="item" style="direction: rtl;">
+                    <h4>ترغب بالإنضمام إلينا؟</h4>
                 </div>
             </div>
 
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <div class="col-md-12 text-center">
+
+            <div class="col-md-4">
+                <h4>Dev 1</h4>
+                <img src="./img/1.png">
+            </div>
+
+            <div class="col-md-4">
+                <h4>Dev 2</h4>
+                <img src="./img/1.png">
+            </div>
+
+            <div class="col-md-4">
+                <h4>Dev 3</h4>
+                <img src="./img/1.png">
+            </div>
+        </div>
+
     </div>
 
     <hr id="line-div"/>
 
     <div class="container" id="back-con">
-        <div class="container text-center">
 
-            <h2>الشركاء</h2>
-            <center>
+        <h2 class="text-center">الشركاء</h2>
+        <center>
 
-                <div class="col-md-12">
+            <div class="col-md-12 text-center">
 
-                    <div class="col-md-2">
-                        <h4>Partner 1</h4>
-                        <img src="./img/1.png">
-                    </div>
-
-                    <div class="col-md-2">
-                        <h4>Partner 2</h4>
-                        <img src="./img/1.png">
-                    </div>
-
-                    <div class="col-md-2">
-                        <h4>Partner 3</h4>
-                        <img src="./img/1.png">
-                    </div>
-
-                    <div class="col-md-2">
-                        <h4>Partner 4</h4>
-                        <img src="./img/1.png">
-                    </div>
-
-                    <div class="col-md-2">
-                        <h4>Partner 5</h4>
-                        <img src="./img/1.png">
-                    </div>
-
-                    <div class="col-md-2">
-                        <h4>Partner 6</h4>
-                        <img src="./img/1.png">
-                    </div>
-
+                <div class="col-md-2">
+                    <h4>Partner 1</h4>
+                    <img src="./img/1.png">
                 </div>
-            </center>
-        </div>
+
+                <div class="col-md-2">
+                    <h4>Partner 2</h4>
+                    <img src="./img/1.png">
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Partner 3</h4>
+                    <img src="./img/1.png">
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Partner 4</h4>
+                    <img src="./img/1.png">
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Partner 5</h4>
+                    <img src="./img/1.png">
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Partner 6</h4>
+                    <img src="./img/1.png">
+                </div>
+
+            </div>
+        </center>
     </div>
 
 
     <hr id="line-div"/>
 
     <div class="container" id="back-con">
-        <div class="container text-center">
-            <h2>تواصل معنا</h2>
+        <h2 class="text-center">تواصل معنا</h2>
 
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="الاسم" type="text" style="direction:rtl;" required="">
-                    </div>
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="البريد الالكتروني" type="email" style="direction:rtl;" required="">
-                    </div>
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="الاسم" type="text" style="direction:rtl;" required="">
                 </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="الرسالة" rows="5" style="direction:rtl;"></textarea><br>
-                <div class="row">
-                    <div class="col-sm-12 form-group">
-                        <button class="btn btn-primary btn-lg" style="font-family: 'DroidArabicKufiRegular';" type="submit">إرسال</button>
-                    </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="البريد الالكتروني" type="email" style="direction:rtl;" required="">
+                </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="الرسالة" rows="5" style="direction:rtl;"></textarea><br>
+            <div class="row">
+                <div class="col-sm-12 form-group text-center">
+                    <button class="btn btn-primary btn-lg" style="font-family: 'DroidArabicKufiRegular';" type="submit">إرسال</button>
                 </div>
             </div>
         </div>
