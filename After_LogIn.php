@@ -16,7 +16,7 @@
 </head>
 
 
-<!--    BODY          -->
+<!--   the  BODY          -->
 
 <body id="TheBody">
 
