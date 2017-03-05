@@ -16,9 +16,6 @@
 
 </head>
 
-
-
-
 <!--    BODY          -->
 
 <body id="TheBody">
