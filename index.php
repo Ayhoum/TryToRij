@@ -1,4 +1,6 @@
 <!DOCTYPE html><!-- -->
+<?php session_start(); ?>
+
 <html lang="en">
 <head>
     <title>TryToRij</title>
@@ -34,10 +36,24 @@
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> سلة المشتريات</a></li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span> حسابي</a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>
+                        <?php
+                        if(isset($_SESSION['email'])){
+                            echo $_SESSION['firstname'];
+                            echo " ";
+                            echo $_SESSION['lastname'];
+                        }else{
+                            ?> حسابي<?php
+                        }?>
+                    </a>
                     <ul class="dropdown-menu">
-                        <li><a href="./SignUp.php"><span class="glyphicon glyphicon-pencil"></span> حساب جديد</a></li>
-                        <li><a href="./Login.php"><span class="glyphicon glyphicon-user"></span> تسجيل الدخول</a></li>
+                        <?php if(isset($_SESSION['email'])){ ?>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> الصفحة الشخصية</a></li>
+                            <li><a href="./includes/logout.php"><span class="glyphicon glyphicon-log-out"></span> تسجيل الخروج</a></li>
+                        <?php }else{ ?>
+                            <li><a href="./Login.php"><span class="glyphicon glyphicon-log-in"></span> تسجيل الدخول</a></li>
+                            <li><a href="./SignUp.php"><span class="glyphicon glyphicon-pencil"></span> حساب جديد</a></li>
+                        <?php }?>
                     </ul>
                 </li>
             </ul>
@@ -51,7 +67,6 @@
 </div>
 
 <div class="container text-center" style="width:80%;">
-
 
     <div class="container text-center" id="back-con">
 
