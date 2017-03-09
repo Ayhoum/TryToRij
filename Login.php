@@ -46,7 +46,8 @@ require 'Lib/Bootstarp_code.php';
     <div class="row main">
         <div class="panel-heading">
             <div class="panel-title text-center">
-                <h1 class="title">يرجى تسجيل الدخول</h1>
+                <center><img class="img-responsive" src="img/logo250.png"></center>
+                <h2 class="title">يرجى تسجيل الدخول</h2>
                 <hr />
             </div>
         </div>
